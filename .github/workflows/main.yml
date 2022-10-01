@@ -35,7 +35,5 @@ jobs:
           git clone https://github.com/AyGemuy/HinataBot
           sudo apt install ffmpeg imagemagick -y
           cd HinataBot
-          rm -rf session.data.json
-          wget https://raw.githubusercontent.com/AyGemuy/Act2/master/session.data.json
           npm install
           npm start
